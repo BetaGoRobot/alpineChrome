@@ -16,7 +16,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/kevinmatthe/publish-packages/game
+          images: ghcr.io/kevinmatthe/publish-packages/betago-alpine-chrome
           tags: type=sha
       - name: Login to GHCR
         uses: docker/login-action@v2
